@@ -1,10 +1,5 @@
-import {
-  Button,
-  Image,
-  ImageBackground,
-  ImageBackgroundComponent,
-} from "react-native";
-//navegacao
+import { ImageBackground } from "react-native";
+//Navegação
 import { useNavigation } from "@react-navigation/native";
 import { Background } from "../../assets/images/images";
 import HomeText from "./HomeText";
