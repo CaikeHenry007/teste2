@@ -7,6 +7,6 @@ import { styles } from "../../styles/Stylesheet";
 
 export default function HomeText() {
     return (
-        <Text style={styles} >Espaço sideralzaço</Text>
+        <Text style={styles.text} >Espaço sideralzaço</Text>
     )
 }

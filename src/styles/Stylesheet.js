@@ -8,6 +8,18 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         
     },
+    quadrado: {
+        backgroundColor: "#fff",
+        opacity: '0.5',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '50%',
+        height: '60%',
+        border: 'solid',
+        borderWidth: 1,
+        borderColor: '#fff',
+        borderRadius: 15,
+    },
     Background: {
         width: "100%",
         height: "100%",
@@ -17,10 +29,13 @@ export const styles = StyleSheet.create({
 
     },
     button: {
-        fontSize: 36,
+        fontSize: 20,
         fontWeight: 'bold',
     },
-
+    text:{
+        fontSize:30,
+        marginBottom: 10,
+    }
 
 })
 export const sobreestilo = StyleSheet.create({
