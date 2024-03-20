@@ -1,11 +1,11 @@
-import { ImageBackground } from "react-native";
+import { Image, ImageBackground } from "react-native";
 //Navegação
 import { useNavigation } from "@react-navigation/native";
-import { Background } from "../../assets/images/images";
+import { Background, Certo } from "../../assets/images/images";
 import HomeText from "./HomeText";
 import HomeButton from "./HomeButton";
-import { styles } from "../../styles/Stylesheet";
-import { View } from "react-native-web";
+import { StylesContato, styles } from "../../styles/Stylesheet";
+import { View } from "react-native";
 
 export default function HomeBackground() {
   const Navigation = useNavigation();
@@ -13,10 +13,11 @@ export default function HomeBackground() {
   return (
     <ImageBackground
       source={Background}
-      resizeMode="cover"
+      resizeMode="repeat"
       style={styles.Background}
     >
       <View style={styles.quadrado}>
+        <Image source={Certo} style={StylesContato.icon} />
         <HomeText />
         <HomeButton />
       </View>

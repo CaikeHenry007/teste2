@@ -1,4 +1,4 @@
-import { Button, Text, Touchable, TouchableOpacity } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
 //Navegação
 import { useNavigation } from "@react-navigation/native";
 import { styles } from "../../styles/Stylesheet";
@@ -8,12 +8,12 @@ export default function HomeButton() {
   return (
     //Botões usados nos Textos, usando a Tag TouchableOpacity
     <>
-      <TouchableOpacity onPress={() => Navigation.navigate("Sobre")}>
-        <Text style={styles.button}>Ir para Sobre</Text>
+      <TouchableOpacity onPress={() => Navigation.navigate("Vantagens")}>
+        <Text style={styles.button}>Vantagens</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => Navigation.navigate("Contato")}>
-        <Text style={styles.button}>Ir para Contato</Text>
+      <TouchableOpacity onPress={() => Navigation.navigate("Desvantagens")}>
+        <Text style={styles.button}>Desvantagens</Text>
       </TouchableOpacity>
     </>
   );

@@ -5,16 +5,15 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "gray",
+    backgroundColor: "#DC143C",
     justifyContent: "center",
     alignItems: "center",
   },
   quadrado: {
-    backgroundColor: "#fff",
-    opacity: "0.5",
+    backgroundColor: "#ffffff88",
     justifyContent: "center",
     alignItems: "center",
-    width: "50%",
+    width: "70%",
     height: "60%",
     border: "solid",
     borderWidth: 1,
@@ -29,12 +28,16 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   button: {
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 15,
+    fontStyle: "italic",
+    color: "white",
+    marginTop: "20%",
   },
   text: {
-    fontSize: 30,
+    fontSize: 15,
     marginBottom: 10,
+    color: "white",
+    fontWeight: "bold",
   },
 });
 
@@ -42,20 +45,31 @@ export const styles = StyleSheet.create({
 
 export const sobreestilo = StyleSheet.create({
   icon: {
-    width: 300,
-    height: 300,
-    border: "solid",
-    borderWidth: 1,
-    borderColor: "black",
-    borderRadius: 150,
+    width: 100,
+    height: 100,
   },
   secundaryContainer: {
+    backgroundColor: "#ffffff88",
     justifyContent: "center",
     alignItems: "center",
+    width: "70%",
+    height: "60%",
+    border: "solid",
+    borderWidth: 1,
+    borderColor: "#fff",
+    borderRadius: 15,
   },
   text: {
     marginTop: 25,
-    fontSize: 30,
+    fontSize: 15,
+  },
+
+  back: {
+    width: "100%",
+    height: "100%",
+    textAlign: "center",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 
@@ -72,18 +86,29 @@ export const StylesContato = StyleSheet.create({
   },
   text: {
     marginTop: 25,
-    fontSize: 30,
+    fontSize: 15,
+    fontWeight: "bold",
   },
   TherreContainerContact: {
-    backgroundColor: "#fff",
-    opacity: "0.5",
+    backgroundColor: "#ffffff88",
     justifyContent: "center",
     alignItems: "center",
-    width: "50%",
+    width: "70%",
     height: "60%",
     border: "solid",
     borderWidth: 1,
     borderColor: "#fff",
     borderRadius: 15,
+  },
+  icon: {
+    width: 100,
+    height: 100,
+  },
+  back: {
+    width: "100%",
+    height: "100%",
+    textAlign: "center",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
