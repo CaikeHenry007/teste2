@@ -21,3 +21,7 @@ export const BackgroundVantagens = {
 export const BackgroundDesvantagens = {
   uri: "https://i.pinimg.com/236x/ae/ee/7e/aeee7e0cccf4d99128b1a0f30f8804ce.jpg",
 };
+
+export const Coração = {
+  uri: "https://w7.pngwing.com/pngs/222/274/png-transparent-smiley-emoticon-laughter-crying-emoji-love-miscellaneous-face.png",
+};

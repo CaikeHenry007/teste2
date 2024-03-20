@@ -28,13 +28,13 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   button: {
-    fontSize: 15,
+    fontSize: 30,
     fontStyle: "italic",
     color: "white",
     marginTop: "20%",
   },
   text: {
-    fontSize: 15,
+    fontSize: 30,
     marginBottom: 10,
     color: "white",
     fontWeight: "bold",
@@ -61,7 +61,9 @@ export const sobreestilo = StyleSheet.create({
   },
   text: {
     marginTop: 25,
-    fontSize: 15,
+    fontSize: 30,
+    color: "white",
+    fontWeight: "bold",
   },
 
   back: {
@@ -78,7 +80,7 @@ export const sobreestilo = StyleSheet.create({
 export const StylesContato = StyleSheet.create({
   NomeCaixa: {
     padding: 20,
-    fontSize: 20,
+    fontSize: 40,
     marginTop: 5,
     borderBottomWidth: 1,
     border: "solid",
@@ -86,7 +88,7 @@ export const StylesContato = StyleSheet.create({
   },
   text: {
     marginTop: 25,
-    fontSize: 15,
+    fontSize: 30,
     fontWeight: "bold",
   },
   TherreContainerContact: {
@@ -101,8 +103,8 @@ export const StylesContato = StyleSheet.create({
     borderRadius: 15,
   },
   icon: {
-    width: 100,
-    height: 100,
+    width: 150,
+    height: 150,
   },
   back: {
     width: "100%",
