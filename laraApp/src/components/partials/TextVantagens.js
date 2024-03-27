@@ -4,10 +4,18 @@ import { StylesContato } from "../../styles/Stylesheet";
 export default function TextVantagens() {
   return (
     <View>
-      <Text style={StylesContato.text}>1- Eu vou ficar muito feliz ツ</Text>
-      <Text style={StylesContato.text}>2- Vai ser muito divertido ♡</Text>
-      <Text style={StylesContato.text}>3- Você vai comer também ㋡</Text>
-      <Text style={StylesContato.text}>4- Vou ficar te devendo um açaí ;)</Text>
+      <Text style={StylesContato.text}>
+        1- Todos os domingos vamos para a missaツ
+      </Text>
+      <Text style={StylesContato.text}>
+        2- Sempre vou fazer a comida q vc quiser ♡
+      </Text>
+      <Text style={StylesContato.text}>
+        3- Vamos para o Morumbi juntinhos ㋡
+      </Text>
+      <Text style={StylesContato.text}>
+        4- Nós vamos ser muito felizes juntos;)
+      </Text>
     </View>
   );
 }

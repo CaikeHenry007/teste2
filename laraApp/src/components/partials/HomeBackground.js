@@ -18,7 +18,7 @@ export default function HomeBackground() {
     >
       <View style={styles.quadrado}>
         <Image
-          source={require("../../assets/images/vivi.png")}
+          source={require("../../assets/images/coraçao.png")}
           style={StylesContato.icon}
         />
 
